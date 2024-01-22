@@ -110,29 +110,6 @@ document.querySelectorAll(".smallButton").forEach(element => {
     
 });
 
-// allBtn = document.querySelectorAll("button");
-// let input = document.querySelector("#result");
-// let ecran = "";
-// allBtn.forEach(element => {
-//     element.addEventListener("click", () => {
-//         input.value = element.innerText
-//         switch (element.innerText) {
-//             case "C":
-//                 ecran = "";
-//             break;
-//             case "=":
-//                 try {
-//                     input.value = eval(ecran);
-//                 } catch (error) {
-//                     input.value = "Error";
-//                 };
-//                 ecran = input.value;
-//             break;
-//             default:
-//                 ecran += element.innerText;
-//         };
-//         input.value = ecran;
-//     });
-// });
+
 
 
